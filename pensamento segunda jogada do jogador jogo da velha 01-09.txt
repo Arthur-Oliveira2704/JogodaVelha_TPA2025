@@ -1,0 +1,87 @@
+// segunda jogada do jogador
+while ((j1 != "X") && (j1 != "O") && (j1 != "x") && (j1 != "o"))
+{
+    Console.WriteLine("Apenas X e O, digite novamente");
+    j2 = Console.ReadLine();
+}
+Console.WriteLine("Insira a letra (lugar) que deseja jogar.");
+lu9 = Console.ReadLine();
+
+
+if (j2 == "a")
+{
+        Console.WriteLine(j1 + " | " + j1m + " |" + j2);
+        Console.WriteLine("---------");
+        Console.WriteLine("d | e | f");
+        Console.WriteLine("---------");
+        Console.WriteLine("g | h | i");
+    
+}
+if (lu9 == "b")
+{
+    Console.WriteLine("a | " + j1 + " | c");
+    Console.WriteLine("---------");
+    Console.WriteLine("d | e | f");
+    Console.WriteLine("---------");
+    Console.WriteLine("g | h | i");
+}
+if (lu10 == "c")
+{
+    Console.WriteLine("a | b | " + j1);
+    Console.WriteLine("---------");
+    Console.WriteLine("d | e | f");
+    Console.WriteLine("---------");
+    Console.WriteLine("g | h | i");
+}
+if (lu10 == "d")
+{
+    Console.WriteLine("a |  b  | c");
+    Console.WriteLine("---------");
+    Console.WriteLine(j1 + " | e | f");
+    Console.WriteLine("---------");
+    Console.WriteLine("g | h | i");
+}
+if (lu10 == "e")
+{
+    Console.WriteLine("a | b | c");
+    Console.WriteLine("---------");
+    Console.WriteLine("d | " + j1 + " | f");
+    Console.WriteLine("---------");
+    Console.WriteLine("g | h | i");
+}
+if (lu10 == "f")
+{
+    Console.WriteLine("a | b | c");
+    Console.WriteLine("---------");
+    Console.WriteLine("d | e | " + j1);
+    Console.WriteLine("---------");
+    Console.WriteLine("g | h | i");
+}
+if (lu10 == "g")
+{
+    Console.WriteLine("a | b | c");
+    Console.WriteLine("---------");
+    Console.WriteLine("d | e | f");
+    Console.WriteLine("---------");
+    Console.WriteLine(j1 + " | h | i");
+}
+if (lu10 == "h")
+{
+    Console.WriteLine("a | b | c");
+    Console.WriteLine("---------");
+    Console.WriteLine("d | e | f");
+    Console.WriteLine("---------");
+    Console.WriteLine("g | " + j1 + " | i");
+}
+if (lu10 == "i")
+{
+    Console.WriteLine("a | b | c");
+    Console.WriteLine("---------");
+    Console.WriteLine("d | e | f");
+    Console.WriteLine("---------");
+    Console.WriteLine("g | h | " + j1);
+}
+
+Console.WriteLine("Vez da máquina...");
+Console.WriteLine("Aperte ENTER para ver.");
+Console.ReadKey();
